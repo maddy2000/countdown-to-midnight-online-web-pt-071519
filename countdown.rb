@@ -12,9 +12,9 @@ end
 
 def countdown_with_sleep (count)
   while count > 0
-  puts "#{count} SECONDS!"
-  sleep (1)
-  count -= 1
-end
-return "HAPPY NEW YEAR!"
+    puts "#{count} SECONDS!"
+    sleep (1)
+    count -= 1
+  end
+  return "HAPPY NEW YEAR!"
 end  
